@@ -1,0 +1,35 @@
+.sidebar-blank.show {
+  display: block;
+}
+
+.sidebar-blank {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  display: none;
+  z-index: 9998;
+}
+
+.sidebar.show {
+  width: 15em;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  z-index: 9999;
+  transition: width .2s;
+  font-size: 1.3em;
+}
+
+.nav-title,
+.nav-title:hover {
+  font-size: 1.7rem;
+  background-color: #343a40;
+  color: white;
+}
